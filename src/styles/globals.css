@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+
+.linkStyle {
+   text-decoration: none; 
+   color: inherit; 
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   text-align: right;
+   letter-spacing: 0.02em;
+   color: #000000;
+   margin-right: 2px;
+   font-family: Lora,"Roboto";
+ }
+
+ .linkStyleM {
+   text-decoration: none; 
+   color: #000000;
+   font-family: Lora,"Roboto";
+ }
+
+ .iconStyle {
+    text-decoration: none; 
+    color: #000000;
+ }
+
+ .linkStyle:hover {
+    text-decoration: none; 
+    color: inherit; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: rgb(255, 90, 90);
+    padding-right: 2px;
+    font-family: Lora,"Roboto";
+ }
+
+ .linkItems  {
+    color: white;
+    font-size: 12px;
+    text-decoration: none; 
+    font-family: Lora,"Roboto";
+    font-style: normal;
+ }
+
+ .linkText {
+   color: #B4B6BA;
+   font-size: 12px;
+   width: 120px;
+   text-decoration: none; 
+   font-family: Lora,"Roboto";
+   font-style: normal;
+}
+
+ @media screen and (max-width: 762px) {
+   .linkItems  {
+      color: white;
+      font-size: 22px;
+   }
+   .linkText {
+      color: #B4B6BA;
+      font-size: 22px;
+   }
+ }
+
+
+ .imgWrap {
+    border: 2px solid #FFFFFF
+ }
+
+ .imgWrapping {
+    transition: transform .2s;
+ }
+
+ 
